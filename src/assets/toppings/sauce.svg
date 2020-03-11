@@ -1,4 +1,3 @@
-<svg height="300" width="500">
-  <ellipse cx="200" cy="80" rx="100" ry="50"
-  style="fill:red;stroke:tan;stroke-width:2" />
+<svg viewBox="0 -3 200 125" xmlns="http://www.w3.org/2000/svg">
+  <ellipse cx="100" cy="50" rx="100" ry="52" style="fill:#b43a06;stroke:purple;stroke-width:2" />
 </svg>

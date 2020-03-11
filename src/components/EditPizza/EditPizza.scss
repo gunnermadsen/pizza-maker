@@ -14,7 +14,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 350px;
+        height: 600px;
         margin-top: 10px;
     }
 }
@@ -34,7 +34,7 @@
     width: 35vh;
 
     // careful, we may add new ingredients, increasing the height of the container
-    max-height: 300px;
+    max-height: 600px;
     gap: 15px;
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
 
@@ -102,6 +102,12 @@
         }
         &--pepperoni {
             background-image: url("../../assets/toppings/pepperoni.svg");
+        }
+        &--prawn {
+            background-image: url("../../assets/toppings/prawn.svg");
+        }
+        &--sauce {
+            background-image: url("../../assets/toppings/sauce.svg");
         }
         &--sweetcorn {
             background-image: url("../../assets/toppings/sweetcorn.svg");

@@ -41,7 +41,6 @@ export default class EditPizza extends Component<InitialState, IPizzaProps> {
 
         const path = this.props.router.location.pathname as string
         const id = parseInt(path.split('/')[2])
-
         console.log(this.props)
         return (
             <div className="EditPizza__Enclosure">
@@ -55,6 +54,9 @@ export default class EditPizza extends Component<InitialState, IPizzaProps> {
                         <Pizza toppings={this.getToppings(id)}></Pizza>
                     </div>
                     <div className="Body__Toppings">
+                        {/* <div className="Body__Toppings-Header">
+                            <h4>Toppings</h4>
+                        </div> */}
                         {
                             this.props.selectedPizza.Toppings.map((topping: IPizzaToppings, index: number) => (
                                 <Button 

@@ -18,9 +18,9 @@
 
     &__Sauce {
         position: absolute;
-        top: 0;
-        right: 25px;
-        width: 300px;
+        top: 15px;
+        right: 40px;
+        width: 270px;
         height: 200px;
         background-image: url("../../assets/toppings/sauce.svg");
         background-repeat: no-repeat;
@@ -38,12 +38,11 @@
         z-index: 1;
     }
 
-
     &__Topping {
         position: absolute;
         background-repeat: no-repeat;
         background-size: contain;
-        z-index: 2;
+        z-index: 3;
 
         &--anchovy {
             background-image: url("../../assets/toppings/anchovy.svg");
@@ -91,8 +90,8 @@
                 left: 205px;
                 top: 5px;
             }
-            }
-            &--basil {
+        }
+        &--basil {
             background-image: url("../../assets/toppings/basil.svg");
             width: 46px;
             height: 32px;
@@ -112,8 +111,8 @@
             &:nth-child(4), &:nth-child(5) {
                 display: none;
             }
-            }
-            &--chili {
+        }
+        &--chili {
             background-image: url("../../assets/toppings/chili.svg");
             width: 63px;
             height: 35px;
@@ -123,12 +122,12 @@
                 top: 40px;
             }
             &:nth-child(2) {
-                left: 68px;
-                top: 77px;
+                left: 281px;
+                top: 64px;
             }
             &:nth-child(3) {
-                left: 52px;
-                top: 144px;
+                left: 156px;
+                top: 113px;
             }
             &:nth-child(4) {
                 left: 210px;
@@ -138,8 +137,8 @@
                 left: 240px;
                 top: 120px;
             }
-            }
-            &--mozzarella {
+        }
+        &--mozzarella {
             background-image: url("../../assets/toppings/mozzarella.svg");
             width: 46px;
             height: 32px;
@@ -159,8 +158,8 @@
             &:nth-child(4), &:nth-child(5) {
                 display: none;
             }
-            }
-            &--mushroom {
+        }
+        &--mushroom {
             background-image: url("../../assets/toppings/mushroom.svg");
             width: 45px;
             height: 26px;
@@ -185,8 +184,8 @@
                 left: 220px;
                 top: 129px;
             }
-            }
-            &--olive {
+        }
+        &--olive {
             background-image: url("../../assets/toppings/olive.svg");
             width: 45px;
             height: 26px;
@@ -210,8 +209,8 @@
             &:nth-child(5) {
                 display: none;
             }
-            }
-            &--onion {
+        }
+        &--onion {
             background-image: url("../../assets/toppings/onion.svg");
             width: 57px;
             height: 36px;
@@ -235,8 +234,8 @@
             &:nth-child(5) {
                 display: none;
             }
-            }
-            &--pepper {
+        }
+        &--pepper {
             background-image: url("../../assets/toppings/pepper.svg");
             width: 57px;
             height: 36px;
@@ -261,8 +260,8 @@
                 left: 105px;
                 top: 82px;
             }
-            }
-            &--pepperoni {
+        }
+        &--pepperoni {
             background-image: url("../../assets/toppings/pepperoni.svg");
             width: 57px;
             height: 36px;
@@ -287,8 +286,34 @@
                 left: 158px;
                 top: 30px;
             }
+        }
+        &--prawn {
+            background-image: url("../../assets/toppings/prawn.svg");
+            width: 57px;
+            height: 36px;
+
+            &:nth-child(1) {
+                left: 222px;
+                top: 35px;
             }
-            &--sweetcorn {
+            &:nth-child(2) {
+                left: 270px;
+                top: 106px;
+            }
+            &:nth-child(3) {
+                left: 100px;
+                top: 60px;
+            }
+            &:nth-child(4) {
+                left: 221px;
+                top: 80px;
+            }
+            &:nth-child(5) {
+                left: 158px;
+                top: 30px;
+            }
+        }
+        &--sweetcorn {
             background-image: url("../../assets/toppings/sweetcorn.svg");
             width: 57px;
             height: 36px;
@@ -298,18 +323,18 @@
                 top: 35px;
             }
             &:nth-child(2) {
-                left: 41px;
-                top: 41px;
+                left: 103px;
+                top: 95px;
             }
             &:nth-child(3) {
-                left: 212px;
-                top: 146px;
+                left: 186px;
+                top: 106px;
             }
             &:nth-child(4), &:nth-child(5) {
                 display: none;
             }
-            }
-            &--tomato {
+        }
+        &--tomato {
             background-image: url("../../assets/toppings/tomato.svg");
             width: 57px;
             height: 36px;
